@@ -12,10 +12,10 @@ class ScrollableProfilePics extends StatelessWidget {
           crossAxisAlignment: CrossAxisAlignment.center,
           children: [
             Container(
-              padding: EdgeInsets.all(2),
+              padding: const EdgeInsets.all(2),
               decoration: BoxDecoration(
                 borderRadius: BorderRadius.circular(50),
-                gradient: LinearGradient(
+                gradient: const LinearGradient(
                   colors: [
                     Color(0xFF585DF9),
                     Color(0xFFFF908D),
@@ -26,7 +26,7 @@ class ScrollableProfilePics extends StatelessWidget {
                 ),
               ),
               child: Container(
-                padding: EdgeInsets.all(7),
+                padding: const EdgeInsets.all(7),
                 decoration: BoxDecoration(
                   color: Colors.white,
                   borderRadius: BorderRadius.circular(50),
@@ -35,7 +35,7 @@ class ScrollableProfilePics extends StatelessWidget {
                     Image.asset('Assets/travelimage/screentwofirstpppng.png'),
               ),
             ),
-            SizedBox(
+            const SizedBox(
               height: 6,
             ),
             SizedBox(
@@ -45,14 +45,14 @@ class ScrollableProfilePics extends StatelessWidget {
                 style: GoogleFonts.roboto(
                   fontWeight: FontWeight.w400,
                   fontSize: 12,
-                  color: Color(0xFF091D60),
+                  color: const Color(0xFF091D60),
                 ),
               ),
             ),
           ],
         ),
         //
-        SizedBox(
+        const SizedBox(
           width: 11,
         ),
         //
@@ -60,10 +60,10 @@ class ScrollableProfilePics extends StatelessWidget {
           crossAxisAlignment: CrossAxisAlignment.center,
           children: [
             Container(
-              padding: EdgeInsets.all(2),
+              padding: const EdgeInsets.all(2),
               decoration: BoxDecoration(
                 borderRadius: BorderRadius.circular(50),
-                gradient: LinearGradient(
+                gradient: const LinearGradient(
                   colors: [
                     Color(0xFF585DF9),
                     Color(0xFFFF908D),
@@ -74,7 +74,7 @@ class ScrollableProfilePics extends StatelessWidget {
                 ),
               ),
               child: Container(
-                padding: EdgeInsets.all(7),
+                padding: const EdgeInsets.all(7),
                 decoration: BoxDecoration(
                   color: Colors.white,
                   borderRadius: BorderRadius.circular(50),
@@ -83,7 +83,7 @@ class ScrollableProfilePics extends StatelessWidget {
                     Image.asset('Assets/travelimage/screentwosecondpppng.png'),
               ),
             ),
-            SizedBox(
+            const SizedBox(
               height: 6,
             ),
             SizedBox(
@@ -93,14 +93,14 @@ class ScrollableProfilePics extends StatelessWidget {
                 style: GoogleFonts.roboto(
                   fontWeight: FontWeight.w400,
                   fontSize: 12,
-                  color: Color(0xFF091D60),
+                  color: const Color(0xFF091D60),
                 ),
               ),
             ),
           ],
         ),
         //
-        SizedBox(
+        const SizedBox(
           width: 11,
         ),
         //
@@ -108,10 +108,10 @@ class ScrollableProfilePics extends StatelessWidget {
           crossAxisAlignment: CrossAxisAlignment.center,
           children: [
             Container(
-              padding: EdgeInsets.all(2),
+              padding: const EdgeInsets.all(2),
               decoration: BoxDecoration(
                 borderRadius: BorderRadius.circular(50),
-                gradient: LinearGradient(
+                gradient: const LinearGradient(
                   colors: [
                     Color(0xFFFF4641),
                     Color(0xFFFF908D),
@@ -122,7 +122,7 @@ class ScrollableProfilePics extends StatelessWidget {
                 ),
               ),
               child: Container(
-                padding: EdgeInsets.all(7),
+                padding: const EdgeInsets.all(7),
                 decoration: BoxDecoration(
                   color: Colors.white,
                   borderRadius: BorderRadius.circular(50),
@@ -131,7 +131,7 @@ class ScrollableProfilePics extends StatelessWidget {
                     Image.asset('Assets/travelimage/screentwothirdpppng.png'),
               ),
             ),
-            SizedBox(
+            const SizedBox(
               height: 6,
             ),
             SizedBox(
@@ -141,14 +141,14 @@ class ScrollableProfilePics extends StatelessWidget {
                 style: GoogleFonts.roboto(
                   fontWeight: FontWeight.w400,
                   fontSize: 12,
-                  color: Color(0xFF091D60),
+                  color: const Color(0xFF091D60),
                 ),
               ),
             ),
           ],
         ),
         //
-        SizedBox(
+        const SizedBox(
           width: 11,
         ),
         //
@@ -156,10 +156,10 @@ class ScrollableProfilePics extends StatelessWidget {
           crossAxisAlignment: CrossAxisAlignment.center,
           children: [
             Container(
-              padding: EdgeInsets.all(2),
+              padding: const EdgeInsets.all(2),
               decoration: BoxDecoration(
                 borderRadius: BorderRadius.circular(50),
-                gradient: LinearGradient(
+                gradient: const LinearGradient(
                   colors: [
                     Color(0xFF585DF9),
                     Color(0xFFFF908D),
@@ -170,7 +170,7 @@ class ScrollableProfilePics extends StatelessWidget {
                 ),
               ),
               child: Container(
-                padding: EdgeInsets.all(7),
+                padding: const EdgeInsets.all(7),
                 decoration: BoxDecoration(
                   color: Colors.white,
                   borderRadius: BorderRadius.circular(50),
@@ -179,7 +179,7 @@ class ScrollableProfilePics extends StatelessWidget {
                     Image.asset('Assets/travelimage/screentwofourthpppng.png'),
               ),
             ),
-            SizedBox(
+            const SizedBox(
               height: 6,
             ),
             SizedBox(
@@ -189,14 +189,14 @@ class ScrollableProfilePics extends StatelessWidget {
                 style: GoogleFonts.roboto(
                   fontWeight: FontWeight.w400,
                   fontSize: 12,
-                  color: Color(0xFF091D60),
+                  color: const Color(0xFF091D60),
                 ),
               ),
             ),
           ],
         ),
         //
-        SizedBox(
+        const SizedBox(
           width: 11,
         ),
         //
@@ -204,10 +204,10 @@ class ScrollableProfilePics extends StatelessWidget {
           crossAxisAlignment: CrossAxisAlignment.center,
           children: [
             Container(
-              padding: EdgeInsets.all(2),
+              padding: const EdgeInsets.all(2),
               decoration: BoxDecoration(
                 borderRadius: BorderRadius.circular(50),
-                gradient: LinearGradient(
+                gradient: const LinearGradient(
                   colors: [
                     Color(0xFF585DF9),
                     Color(0xFFFF908D),
@@ -218,12 +218,12 @@ class ScrollableProfilePics extends StatelessWidget {
                 ),
               ),
               child: Container(
-                padding: EdgeInsets.all(7),
+                padding: const EdgeInsets.all(7),
                 decoration: BoxDecoration(
                   color: Colors.white,
                   borderRadius: BorderRadius.circular(50),
                 ),
-                child: Container(
+                child: SizedBox(
                   height: 54,
                   width: 54,
                   child: ClipRRect(
@@ -236,7 +236,7 @@ class ScrollableProfilePics extends StatelessWidget {
                 ),
               ),
             ),
-            SizedBox(
+            const SizedBox(
               height: 6,
             ),
             SizedBox(
@@ -246,14 +246,14 @@ class ScrollableProfilePics extends StatelessWidget {
                 style: GoogleFonts.roboto(
                   fontWeight: FontWeight.w400,
                   fontSize: 12,
-                  color: Color(0xFF091D60),
+                  color: const Color(0xFF091D60),
                 ),
               ),
             ),
           ],
         ),
         //
-        SizedBox(
+        const SizedBox(
           width: 11,
         ),
         //
@@ -261,10 +261,10 @@ class ScrollableProfilePics extends StatelessWidget {
           crossAxisAlignment: CrossAxisAlignment.center,
           children: [
             Container(
-              padding: EdgeInsets.all(2),
+              padding: const EdgeInsets.all(2),
               decoration: BoxDecoration(
                 borderRadius: BorderRadius.circular(50),
-                gradient: LinearGradient(
+                gradient: const LinearGradient(
                   colors: [
                     Color(0xFF585DF9),
                     Color(0xFFFF908D),
@@ -275,7 +275,7 @@ class ScrollableProfilePics extends StatelessWidget {
                 ),
               ),
               child: Container(
-                padding: EdgeInsets.all(7),
+                padding: const EdgeInsets.all(7),
                 decoration: BoxDecoration(
                   color: Colors.white,
                   borderRadius: BorderRadius.circular(50),
@@ -284,7 +284,7 @@ class ScrollableProfilePics extends StatelessWidget {
                     Image.asset('Assets/travelimage/screentwofirstpppng.png'),
               ),
             ),
-            SizedBox(
+            const SizedBox(
               height: 6,
             ),
             SizedBox(
@@ -294,14 +294,14 @@ class ScrollableProfilePics extends StatelessWidget {
                 style: GoogleFonts.roboto(
                   fontWeight: FontWeight.w400,
                   fontSize: 12,
-                  color: Color(0xFF091D60),
+                  color: const Color(0xFF091D60),
                 ),
               ),
             ),
           ],
         ),
         //
-        SizedBox(
+        const SizedBox(
           width: 11,
         ),
         //
@@ -309,10 +309,10 @@ class ScrollableProfilePics extends StatelessWidget {
           crossAxisAlignment: CrossAxisAlignment.center,
           children: [
             Container(
-              padding: EdgeInsets.all(2),
+              padding: const EdgeInsets.all(2),
               decoration: BoxDecoration(
                 borderRadius: BorderRadius.circular(50),
-                gradient: LinearGradient(
+                gradient: const LinearGradient(
                   colors: [
                     Color(0xFF585DF9),
                     Color(0xFFFF908D),
@@ -323,7 +323,7 @@ class ScrollableProfilePics extends StatelessWidget {
                 ),
               ),
               child: Container(
-                padding: EdgeInsets.all(7),
+                padding: const EdgeInsets.all(7),
                 decoration: BoxDecoration(
                   color: Colors.white,
                   borderRadius: BorderRadius.circular(50),
@@ -332,7 +332,7 @@ class ScrollableProfilePics extends StatelessWidget {
                     Image.asset('Assets/travelimage/screentwosecondpppng.png'),
               ),
             ),
-            SizedBox(
+            const SizedBox(
               height: 6,
             ),
             SizedBox(
@@ -342,14 +342,14 @@ class ScrollableProfilePics extends StatelessWidget {
                 style: GoogleFonts.roboto(
                   fontWeight: FontWeight.w400,
                   fontSize: 12,
-                  color: Color(0xFF091D60),
+                  color: const Color(0xFF091D60),
                 ),
               ),
             ),
           ],
         ),
         //
-        SizedBox(
+        const SizedBox(
           width: 11,
         ),
         //
@@ -357,10 +357,10 @@ class ScrollableProfilePics extends StatelessWidget {
           crossAxisAlignment: CrossAxisAlignment.center,
           children: [
             Container(
-              padding: EdgeInsets.all(2),
+              padding: const EdgeInsets.all(2),
               decoration: BoxDecoration(
                 borderRadius: BorderRadius.circular(50),
-                gradient: LinearGradient(
+                gradient: const LinearGradient(
                   colors: [
                     Color(0xFFFF4641),
                     Color(0xFFFF908D),
@@ -371,7 +371,7 @@ class ScrollableProfilePics extends StatelessWidget {
                 ),
               ),
               child: Container(
-                padding: EdgeInsets.all(7),
+                padding: const EdgeInsets.all(7),
                 decoration: BoxDecoration(
                   color: Colors.white,
                   borderRadius: BorderRadius.circular(50),
@@ -380,7 +380,7 @@ class ScrollableProfilePics extends StatelessWidget {
                     Image.asset('Assets/travelimage/screentwothirdpppng.png'),
               ),
             ),
-            SizedBox(
+            const SizedBox(
               height: 6,
             ),
             SizedBox(
@@ -390,14 +390,14 @@ class ScrollableProfilePics extends StatelessWidget {
                 style: GoogleFonts.roboto(
                   fontWeight: FontWeight.w400,
                   fontSize: 12,
-                  color: Color(0xFF091D60),
+                  color: const Color(0xFF091D60),
                 ),
               ),
             ),
           ],
         ),
         //
-        SizedBox(
+        const SizedBox(
           width: 11,
         ),
         //
@@ -405,10 +405,10 @@ class ScrollableProfilePics extends StatelessWidget {
           crossAxisAlignment: CrossAxisAlignment.center,
           children: [
             Container(
-              padding: EdgeInsets.all(2),
+              padding: const EdgeInsets.all(2),
               decoration: BoxDecoration(
                 borderRadius: BorderRadius.circular(50),
-                gradient: LinearGradient(
+                gradient: const LinearGradient(
                   colors: [
                     Color(0xFF585DF9),
                     Color(0xFFFF908D),
@@ -419,7 +419,7 @@ class ScrollableProfilePics extends StatelessWidget {
                 ),
               ),
               child: Container(
-                padding: EdgeInsets.all(7),
+                padding: const EdgeInsets.all(7),
                 decoration: BoxDecoration(
                   color: Colors.white,
                   borderRadius: BorderRadius.circular(50),
@@ -428,7 +428,7 @@ class ScrollableProfilePics extends StatelessWidget {
                     Image.asset('Assets/travelimage/screentwofourthpppng.png'),
               ),
             ),
-            SizedBox(
+            const SizedBox(
               height: 6,
             ),
             SizedBox(
@@ -438,14 +438,14 @@ class ScrollableProfilePics extends StatelessWidget {
                 style: GoogleFonts.roboto(
                   fontWeight: FontWeight.w400,
                   fontSize: 12,
-                  color: Color(0xFF091D60),
+                  color: const Color(0xFF091D60),
                 ),
               ),
             ),
           ],
         ),
         //
-        SizedBox(
+        const SizedBox(
           width: 11,
         ),
         //
@@ -453,10 +453,10 @@ class ScrollableProfilePics extends StatelessWidget {
           crossAxisAlignment: CrossAxisAlignment.center,
           children: [
             Container(
-              padding: EdgeInsets.all(2),
+              padding: const EdgeInsets.all(2),
               decoration: BoxDecoration(
                 borderRadius: BorderRadius.circular(50),
-                gradient: LinearGradient(
+                gradient: const LinearGradient(
                   colors: [
                     Color(0xFF585DF9),
                     Color(0xFFFF908D),
@@ -467,12 +467,12 @@ class ScrollableProfilePics extends StatelessWidget {
                 ),
               ),
               child: Container(
-                padding: EdgeInsets.all(7),
+                padding: const EdgeInsets.all(7),
                 decoration: BoxDecoration(
                   color: Colors.white,
                   borderRadius: BorderRadius.circular(50),
                 ),
-                child: Container(
+                child: SizedBox(
                   height: 54,
                   width: 54,
                   child: ClipRRect(
@@ -485,7 +485,7 @@ class ScrollableProfilePics extends StatelessWidget {
                 ),
               ),
             ),
-            SizedBox(
+            const SizedBox(
               height: 6,
             ),
             SizedBox(
@@ -495,14 +495,14 @@ class ScrollableProfilePics extends StatelessWidget {
                 style: GoogleFonts.roboto(
                   fontWeight: FontWeight.w400,
                   fontSize: 12,
-                  color: Color(0xFF091D60),
+                  color: const Color(0xFF091D60),
                 ),
               ),
             ),
           ],
         ),
         //
-        SizedBox(
+        const SizedBox(
           width: 11,
         ),
         //
@@ -510,10 +510,10 @@ class ScrollableProfilePics extends StatelessWidget {
           crossAxisAlignment: CrossAxisAlignment.center,
           children: [
             Container(
-              padding: EdgeInsets.all(2),
+              padding: const EdgeInsets.all(2),
               decoration: BoxDecoration(
                 borderRadius: BorderRadius.circular(50),
-                gradient: LinearGradient(
+                gradient: const LinearGradient(
                   colors: [
                     Color(0xFF585DF9),
                     Color(0xFFFF908D),
@@ -524,7 +524,7 @@ class ScrollableProfilePics extends StatelessWidget {
                 ),
               ),
               child: Container(
-                padding: EdgeInsets.all(7),
+                padding: const EdgeInsets.all(7),
                 decoration: BoxDecoration(
                   color: Colors.white,
                   borderRadius: BorderRadius.circular(50),
@@ -533,7 +533,7 @@ class ScrollableProfilePics extends StatelessWidget {
                     Image.asset('Assets/travelimage/screentwofirstpppng.png'),
               ),
             ),
-            SizedBox(
+            const SizedBox(
               height: 6,
             ),
             SizedBox(
@@ -543,14 +543,14 @@ class ScrollableProfilePics extends StatelessWidget {
                 style: GoogleFonts.roboto(
                   fontWeight: FontWeight.w400,
                   fontSize: 12,
-                  color: Color(0xFF091D60),
+                  color: const Color(0xFF091D60),
                 ),
               ),
             ),
           ],
         ),
         //
-        SizedBox(
+        const SizedBox(
           width: 11,
         ),
         //
@@ -558,10 +558,10 @@ class ScrollableProfilePics extends StatelessWidget {
           crossAxisAlignment: CrossAxisAlignment.center,
           children: [
             Container(
-              padding: EdgeInsets.all(2),
+              padding: const EdgeInsets.all(2),
               decoration: BoxDecoration(
                 borderRadius: BorderRadius.circular(50),
-                gradient: LinearGradient(
+                gradient: const LinearGradient(
                   colors: [
                     Color(0xFF585DF9),
                     Color(0xFFFF908D),
@@ -572,7 +572,7 @@ class ScrollableProfilePics extends StatelessWidget {
                 ),
               ),
               child: Container(
-                padding: EdgeInsets.all(7),
+                padding: const EdgeInsets.all(7),
                 decoration: BoxDecoration(
                   color: Colors.white,
                   borderRadius: BorderRadius.circular(50),
@@ -581,7 +581,7 @@ class ScrollableProfilePics extends StatelessWidget {
                     Image.asset('Assets/travelimage/screentwosecondpppng.png'),
               ),
             ),
-            SizedBox(
+            const SizedBox(
               height: 6,
             ),
             SizedBox(
@@ -591,14 +591,14 @@ class ScrollableProfilePics extends StatelessWidget {
                 style: GoogleFonts.roboto(
                   fontWeight: FontWeight.w400,
                   fontSize: 12,
-                  color: Color(0xFF091D60),
+                  color: const Color(0xFF091D60),
                 ),
               ),
             ),
           ],
         ),
         //
-        SizedBox(
+        const SizedBox(
           width: 11,
         ),
         //
@@ -606,10 +606,10 @@ class ScrollableProfilePics extends StatelessWidget {
           crossAxisAlignment: CrossAxisAlignment.center,
           children: [
             Container(
-              padding: EdgeInsets.all(2),
+              padding: const EdgeInsets.all(2),
               decoration: BoxDecoration(
                 borderRadius: BorderRadius.circular(50),
-                gradient: LinearGradient(
+                gradient: const LinearGradient(
                   colors: [
                     Color(0xFFFF4641),
                     Color(0xFFFF908D),
@@ -620,7 +620,7 @@ class ScrollableProfilePics extends StatelessWidget {
                 ),
               ),
               child: Container(
-                padding: EdgeInsets.all(7),
+                padding: const EdgeInsets.all(7),
                 decoration: BoxDecoration(
                   color: Colors.white,
                   borderRadius: BorderRadius.circular(50),
@@ -629,7 +629,7 @@ class ScrollableProfilePics extends StatelessWidget {
                     Image.asset('Assets/travelimage/screentwothirdpppng.png'),
               ),
             ),
-            SizedBox(
+            const SizedBox(
               height: 6,
             ),
             SizedBox(
@@ -639,14 +639,14 @@ class ScrollableProfilePics extends StatelessWidget {
                 style: GoogleFonts.roboto(
                   fontWeight: FontWeight.w400,
                   fontSize: 12,
-                  color: Color(0xFF091D60),
+                  color: const Color(0xFF091D60),
                 ),
               ),
             ),
           ],
         ),
         //
-        SizedBox(
+        const SizedBox(
           width: 11,
         ),
         //
@@ -654,10 +654,10 @@ class ScrollableProfilePics extends StatelessWidget {
           crossAxisAlignment: CrossAxisAlignment.center,
           children: [
             Container(
-              padding: EdgeInsets.all(2),
+              padding: const EdgeInsets.all(2),
               decoration: BoxDecoration(
                 borderRadius: BorderRadius.circular(50),
-                gradient: LinearGradient(
+                gradient: const LinearGradient(
                   colors: [
                     Color(0xFF585DF9),
                     Color(0xFFFF908D),
@@ -668,7 +668,7 @@ class ScrollableProfilePics extends StatelessWidget {
                 ),
               ),
               child: Container(
-                padding: EdgeInsets.all(7),
+                padding: const EdgeInsets.all(7),
                 decoration: BoxDecoration(
                   color: Colors.white,
                   borderRadius: BorderRadius.circular(50),
@@ -677,7 +677,7 @@ class ScrollableProfilePics extends StatelessWidget {
                     Image.asset('Assets/travelimage/screentwofourthpppng.png'),
               ),
             ),
-            SizedBox(
+            const SizedBox(
               height: 6,
             ),
             SizedBox(
@@ -687,14 +687,14 @@ class ScrollableProfilePics extends StatelessWidget {
                 style: GoogleFonts.roboto(
                   fontWeight: FontWeight.w400,
                   fontSize: 12,
-                  color: Color(0xFF091D60),
+                  color: const Color(0xFF091D60),
                 ),
               ),
             ),
           ],
         ),
         //
-        SizedBox(
+        const SizedBox(
           width: 11,
         ),
         //
@@ -702,10 +702,10 @@ class ScrollableProfilePics extends StatelessWidget {
           crossAxisAlignment: CrossAxisAlignment.center,
           children: [
             Container(
-              padding: EdgeInsets.all(2),
+              padding: const EdgeInsets.all(2),
               decoration: BoxDecoration(
                 borderRadius: BorderRadius.circular(50),
-                gradient: LinearGradient(
+                gradient: const LinearGradient(
                   colors: [
                     Color(0xFF585DF9),
                     Color(0xFFFF908D),
@@ -716,12 +716,12 @@ class ScrollableProfilePics extends StatelessWidget {
                 ),
               ),
               child: Container(
-                padding: EdgeInsets.all(7),
+                padding: const EdgeInsets.all(7),
                 decoration: BoxDecoration(
                   color: Colors.white,
                   borderRadius: BorderRadius.circular(50),
                 ),
-                child: Container(
+                child: SizedBox(
                   height: 54,
                   width: 54,
                   child: ClipRRect(
@@ -734,7 +734,7 @@ class ScrollableProfilePics extends StatelessWidget {
                 ),
               ),
             ),
-            SizedBox(
+            const SizedBox(
               height: 6,
             ),
             SizedBox(
@@ -744,14 +744,14 @@ class ScrollableProfilePics extends StatelessWidget {
                 style: GoogleFonts.roboto(
                   fontWeight: FontWeight.w400,
                   fontSize: 12,
-                  color: Color(0xFF091D60),
+                  color: const Color(0xFF091D60),
                 ),
               ),
             ),
           ],
         ),
         //
-        SizedBox(
+        const SizedBox(
           width: 11,
         ),
         //

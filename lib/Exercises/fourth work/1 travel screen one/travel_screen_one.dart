@@ -123,10 +123,10 @@ class _TravelScreenOneState extends State<TravelScreenOne> {
                 decoration: BoxDecoration(
                   borderRadius: BorderRadius.circular(32),
                   color: Colors.white,
-                  boxShadow: [
+                  boxShadow: const [
                     BoxShadow(
                       blurRadius: 48,
-                      color: Color(0xFF1E1C2E14),
+                      color: Color(0xff1e1c2e14),
                       offset: Offset(
                         0,
                         24,
@@ -140,7 +140,7 @@ class _TravelScreenOneState extends State<TravelScreenOne> {
                   children: [
                     Row(
                       children: [
-                        Container(
+                        SizedBox(
                           width: 69,
                           height: 69,
                           child: Image.asset(

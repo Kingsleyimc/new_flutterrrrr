@@ -2,7 +2,12 @@
 
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/flutter_svg.dart';
+import 'package:new_flutterrrrr/Exercises/first%20work/5%20welcome%20back/welcome_back_page.dart';
+import 'package:new_flutterrrrr/Exercises/second%20work/intro_page_1.dart';
+import 'package:new_flutterrrrr/Exercises/second%20work/intro_page_2.dart';
+import 'package:new_flutterrrrr/Exercises/second%20work/intro_page_3.dart';
 import 'package:salomon_bottom_bar/salomon_bottom_bar.dart';
+import 'package:smooth_page_indicator/smooth_page_indicator.dart';
 
 class SecondWorkLandingpage extends StatefulWidget {
   const SecondWorkLandingpage({super.key});
@@ -12,6 +17,8 @@ class SecondWorkLandingpage extends StatefulWidget {
 }
 
 class _SecondWorkLandingpageState extends State<SecondWorkLandingpage> {
+  bool onLastPage = false;
+  PageController _controller = PageController();
   var _currentIndex = 0;
   @override
   Widget build(BuildContext context) {
@@ -47,53 +54,71 @@ class _SecondWorkLandingpageState extends State<SecondWorkLandingpage> {
       ),
       body: Column(
         children: [
-          Row(
-            children: [
-              SvgPicture.asset(
-                'Assets/images/shoppingcarticonblack.svg',
-              ),
-              Image.asset(
-                'Assets/images/shoppingcarticonblackpng.png',
-              ),
-              SvgPicture.asset(
-                'Assets/images/shoppingcarticonblack.svg',
-                width: 100,
-                height: 100,
-              ),
-              Image.asset(
-                'Assets/images/shoppingcarticonblackpng.png',
-                width: 100,
-                height: 100,
-              ),
-            ],
-          ),
-          Row(
-            children: [
-              Container(
-                padding: EdgeInsets.all(5),
-                decoration: BoxDecoration(
-                  gradient: LinearGradient(colors: [
-                    Colors.purple,
-                    Colors.green,
-                  ], begin: Alignment.topCenter, end: Alignment.bottomCenter),
-                  borderRadius: BorderRadius.circular(15),
+          SizedBox(
+            height: 300,
+            child: Stack(
+              children: [
+                PageView(
+                  onPageChanged: (index) {
+                    setState(() {
+                      onLastPage = (index == 2);
+                    });
+                  },
+                  controller: _controller,
+                  children: [
+                    IntroPage1(),
+                    IntroPage2(),
+                    IntroPage3(),
+                  ],
                 ),
-                child: Container(
-                  height: 250,
-                  width: 200,
-                  padding: EdgeInsets.all(50),
-                  decoration: BoxDecoration(
-                    borderRadius: BorderRadius.circular(15),
-                    color: Colors.white,
-                  ),
-                  child: Image.asset(
-                    'Assets/photography/profilepicsamanthajpg.jpg',
-                    fit: BoxFit.cover,
-                  ),
-                ),
-              ),
-            ],
+                Container(
+                    alignment: Alignment(0, 0.75),
+                    child: Row(
+                      mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+                      children: [
+                        GestureDetector(
+                            onTap: () {
+                              _controller.jumpToPage(2);
+                            },
+                            child: Text('Skip')),
+                        SmoothPageIndicator(
+                          controller: _controller,
+                          count: 3,
+                          effect: ExpandingDotsEffect(
+                            dotColor: Colors.black,
+                            activeDotColor: Colors.red,
+                            dotHeight: 10,
+                            dotWidth: 16,
+                            expansionFactor: 1.8,
+                            spacing: 8,
+                          ),
+                        ),
+                        onLastPage
+                            ? GestureDetector(
+                                onTap: () {
+                                  Navigator.push(
+                                      context,
+                                      MaterialPageRoute(
+                                        builder: (context) => WelcomeBackPage(),
+                                      ));
+                                },
+                                child: Text('Done'))
+                            : GestureDetector(
+                                onTap: () {
+                                  _controller.nextPage(
+                                      duration: Duration(milliseconds: 500),
+                                      curve: Curves.easeIn);
+                                },
+                                child: Text('Next'))
+                      ],
+                    )),
+              ],
+            ),
           ),
+          Container(
+            color: const Color.fromARGB(255, 27, 27, 27),
+            height: 200,
+          )
         ],
       ),
     );

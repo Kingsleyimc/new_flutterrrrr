@@ -316,7 +316,7 @@ class TravelScreenTwo extends StatelessWidget {
                                           width: 116,
                                           decoration: BoxDecoration(
                                             gradient: LinearGradient(
-                                              colors: [
+                                              colors: const [
                                                 Color(0xFF585DF9),
                                                 Color(0xFF5885F9),
                                               ],
@@ -400,7 +400,7 @@ class TravelScreenTwo extends StatelessWidget {
                                       child: Container(
                                         height: 0.1,
                                         decoration: BoxDecoration(
-                                          boxShadow: [
+                                          boxShadow: const [
                                             BoxShadow(
                                               color: Colors.white,
                                               offset: Offset(0, -5),

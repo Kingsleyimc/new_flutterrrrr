@@ -1,6 +1,10 @@
 // ignore_for_file: prefer_const_constructors
 
 import 'package:flutter/material.dart';
+import 'package:new_flutterrrrr/Exercises/first%20work/2%20discover/intro_scroll.dart';
+import 'package:new_flutterrrrr/Exercises/first%20work/2%20discover/Scrollables/scroll_page_1.dart';
+import 'package:new_flutterrrrr/Exercises/first%20work/2%20discover/Scrollables/scroll_page_3.dart';
+import 'package:new_flutterrrrr/Exercises/first%20work/_pageview.dart';
 
 class LandingPage extends StatelessWidget {
   const LandingPage({super.key});
@@ -117,6 +121,53 @@ class LandingPage extends StatelessWidget {
                   Navigator.pushNamed(context, '/welcome_to_home_page');
                 },
                 child: Text('Welcome to home page!'),
+              ),
+            ],
+          ),
+          SizedBox(
+            height: 3,
+          ),
+          Row(
+            children: [
+              ElevatedButton(
+                onPressed: () {
+                  Navigator.push(context,
+                      MaterialPageRoute(builder: (context) => IntroScroll()));
+                },
+                child: Text('main'),
+              ),
+              SizedBox(
+                width: 5,
+              ),
+              ElevatedButton(
+                onPressed: () {
+                  Navigator.push(context,
+                      MaterialPageRoute(builder: (context) => ScrollPage1()));
+                },
+                child: Text('scroll 1'),
+              ),
+              SizedBox(
+                width: 5,
+              ),
+              ElevatedButton(
+                onPressed: () {
+                  Navigator.push(
+                      context,
+                      MaterialPageRoute(
+                        builder: (context) => Pageview(),
+                      ));
+                },
+                child: Text('scroll 2'),
+              ),
+              SizedBox(
+                width: 5,
+              ),
+              ElevatedButton(
+                onPressed: () {
+                  Navigator.push(context,
+                      MaterialPageRoute(builder: (context) => ScrollPage3()));
+                },
+                child: Text('scroll 3'),
               ),
             ],
           ),
@@ -261,5 +312,5 @@ class LandingPage extends StatelessWidget {
 /*
 C:\Program Files
 C:\Program Files\Eclipse Adoptium
-C:\Program Files\Eclipse Adoptium\jdk-21.0.4.7-hotspot
+C:\Program Files\Eclipse Adoptium\jdk-21.0.4.7-hotspot             C:\Program Files\Java\jdk-17
  */
